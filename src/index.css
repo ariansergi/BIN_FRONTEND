@@ -6,4 +6,36 @@
 
 body {
   margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+}
+
+.welcome {
+  display: grid;
+  justify-items: center;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+}
+
+button:hover {
+  background: #f4f4f4;
 }
